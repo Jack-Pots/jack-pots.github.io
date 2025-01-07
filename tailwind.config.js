@@ -7,6 +7,9 @@ export default {
         richblack: {
           100: '#050714',
         },
+        tran: {
+          40:  'rgba(30, 30, 30, 0.2)',
+        },
       },
     },
   },
