@@ -21,3 +21,37 @@ h3,
     font-family: Cherish;
     font-size: 35px;
 }
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.home .home-content h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.home .home-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-img {
+    border-radius: 50%;
+}
+.home-img img {
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+span {
+    color: #b74b4b;
+}
+

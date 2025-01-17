@@ -16,10 +16,11 @@
             <img src="/jp-icon.png" alt="icon">
         </div>
         <div class="home-content">
-            <h1>Hi, I'm <span>Joel</span> Paul</h1>
+            <h1>Hi, I'm <span>Joel Paul</span></h1>
             <h3 class="bio">
                 I'm a <span></span>
             </h3>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem expedita asperiores beatae nostrum fuga blanditiis quia odio veniam nisi? Consectetur?</h4>
             <div class="social-icons">
                 <!-- svelte-ignore a11y_consider_explicit_label -->
                 <a href="http://www.linkedin.com/in/jack-pots"><i class="fa-brands fa-linkedin"></i></a>
