@@ -8,7 +8,8 @@
 </script>
 
 <header class={'sticky z-[-10] top-0 duration-200 px-6 flex items-center justify-between border border-solid ' + (y > 0 ? 'py-4 tran-40 border-violet-950' : 'py-6 border-transparent')}>
-    <h1 id="logo" class="absolute left-1/2 transform -translate-x-1/2">
+    <!--<h1 id="logo" class="absolute left-1/2 transform -translate-x-1/2">-->
+    <h1 class="font-semibold Cherish">
         Joel
         Paul
     </h1>
