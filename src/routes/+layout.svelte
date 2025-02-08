@@ -1,5 +1,6 @@
 <script>
     import "../app.css";
+    import Main from "../components/Main.svelte"
     import Header from "../components/Header.svelte"
     import Footer from "../components/Footer.svelte" 
 
@@ -12,13 +13,7 @@
     }
 </script>
   
-<div class="relative flex flex-col max-w-[1440px mx-auto w-full text-sm sm:text-base min-h-screen]">
-    <div class={"fixed bottom-0 w-full duration-200 flex p-10 z-[-10] " + y > 0 ? 'opacity-full pointer-events-auto' : 'pointer-events-none opacity-0'}>
-        <!-- svelte-ignore a11y_consider_explicit_label -->
-        <button on:click={goTop} class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px hover:bg-slate-800 cursor-pointer">
-            <i class="fa-solid fa-arrow-up grid place-items-center aspect-square"></i> 
-        </button>
-    </div>
+<div>
     <Header y={y}/>
     <slot />
     <Footer />
