@@ -6,17 +6,19 @@ html {
     scroll-behavior: smooth;
 }
 
+.outfit-thin {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 * {
-    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2,
-h3{
-    font-family: sans-serif;
-}
 
 .layout {
     width: 50%;
@@ -36,8 +38,10 @@ header {
     position: relative;
 }
 .tabs {
+    font-family:  "Outfit", serif;
     display: flex;
-    gap: 1rem
+    gap: 2rem;
+    font-size: 18px;
 }
 
 h1 {

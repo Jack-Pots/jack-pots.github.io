@@ -11,7 +11,6 @@
             <h1 class="name">Joel Paul</h1>
             <br>
             <p class="about">Hey, I am Joel Paul, an aspirant SDE also a passionate open sourcer developer! </p>
-            <p>hello</p>
         </div>
     </section>
 </main>
