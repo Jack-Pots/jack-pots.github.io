@@ -7,13 +7,10 @@
 </script>
 
 <header>
-    Joel Paul
-    <div class="tabs">
+    <nav class="tabs">
+        <!-- <span class="pages"> -->
         <a href="/">Blog</a>
         <a href="/">Projects</a>
-    </div>
-
-    <div class="social-links">
         <!-- svelte-ignore a11y_consider_explicit_label -->
         <a href="http://www.linkedin.com/in/jack-pots" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <!-- svelte-ignore a11y_consider_explicit_label -->
@@ -24,5 +21,5 @@
         <a href="https://t.me/Jack_Pots30" target="_blank"><i class="fa-brands fa-telegram"></i></a>
         <!-- svelte-ignore a11y_consider_explicit_label -->
         <a href="https://www.instagram.com/joelpaul30/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    </div>
+    </nav>
 </header>

@@ -8,6 +8,8 @@ html {
 
 * {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -25,7 +27,17 @@ h3{
 }
 
 header {
-    color: white;
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    line-height: 24px;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+}
+.tabs {
+    display: flex;
+    gap: 1rem
 }
 
 h1 {
@@ -34,5 +46,6 @@ h1 {
 } 
 
 .about {
-    margin-bottom: 20px    ;
+    margin-bottom: 20px;
 }
+
