@@ -12,13 +12,18 @@ html {
     font-weight: 400;
     font-style: normal;
   }
+
+.name {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
   
 
 * {
     margin: 0;
     padding: 0;
+    scrollbar-color: inherit;
 }
-
 
 .layout {
     width: 50%;
@@ -51,5 +56,14 @@ h1 {
 
 .about {
     margin-bottom: 20px;
+    
 }
 
+.content {
+    color: rgb(187, 187, 187);
+    font-family: "Lato", sans-serif;
+}
+
+p {
+    line-height: 1.5rem;
+}
