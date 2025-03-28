@@ -16,6 +16,7 @@ html {
 .name {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
+    text-align: center;
 }
   
 
@@ -26,7 +27,7 @@ html {
 }
 
 .layout {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -50,9 +51,12 @@ header {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 54px;
     font-weight: 550;
+    margin-top: 100px;
+    margin-bottom: 30px;
 } 
+
 
 .about {
     margin-bottom: 20px;
@@ -61,9 +65,11 @@ h1 {
 
 .content {
     color: rgb(187, 187, 187);
-    font-family: "Lato", sans-serif;
+    font-family: "Playfair" ;
+    font-size: 24px;
+    text-align: center;
 }
 
-p {
+/* p {
     line-height: 1.5rem;
-}
+} */
