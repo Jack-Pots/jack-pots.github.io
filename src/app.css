@@ -27,7 +27,7 @@ html {
 }
 
 .layout {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -51,12 +51,16 @@ header {
 }
 
 h1 {
-    font-size: 54px;
+    font-size: 44px;
     font-weight: 550;
     margin-top: 100px;
-    margin-bottom: 30px;
 } 
 
+.where {
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.616);
+    text-align: center;
+}
 
 .about {
     margin-bottom: 20px;
@@ -66,10 +70,5 @@ h1 {
 .content {
     color: rgb(187, 187, 187);
     font-family: "Playfair" ;
-    font-size: 24px;
     text-align: center;
 }
-
-/* p {
-    line-height: 1.5rem;
-} */
