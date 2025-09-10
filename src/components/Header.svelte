@@ -1,15 +1,11 @@
 <script>
-    
-    // let tabs = [
-    //     {name: "Projects", link: "#"},
-    //     {name: "About Me", link: "#"}
-    //];    
+
 </script>
 
 <header>
     <nav class="tabs">
         <!-- <span class="pages"> -->
-        <a href="/">Blog</a>
+        <a href="/blogs">Blog</a>
         <a href="/">Projects</a>
         <!-- svelte-ignore a11y_consider_explicit_label -->
         <a href="http://www.linkedin.com/in/jack-pots" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
