@@ -8,7 +8,7 @@
             <img src="/jp-icon.png" alt="icon">
         </div> -->
         <div class="home-content">
-            <h1 class="name">Joel Paul</h1>
+            <h1 id="name" class="font-playfair text-center mt-32">Joel Paul</h1>
             <h6 class="where"><i class="fa-solid fa-map-pin"></i>  Bangalore, Karnataka, India</h6>
             <br>
             <div class="main">

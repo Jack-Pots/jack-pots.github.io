@@ -13,10 +13,8 @@ html {
     font-style: normal;
   }
 
-.name {
-    font-family: "Playfair Display", serif;
+#name {
     font-optical-sizing: auto;
-    text-align: center;
 }
   
 
