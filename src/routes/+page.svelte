@@ -8,7 +8,7 @@
         <nav class="flex justify-self-center gap-6 text-sm font-medium">
             <a href="#about" class="hover:opacity-70 transition">ABOUT</a>
             <a href="/" class="hover:opacity-70 transition">PROJECTS</a>
-            <a href="#blog" class="hover:opacity-70 transition">BLOG</a>
+            <a href="/" class="hover:opacity-70 transition">BLOG</a>
         </nav>
 
         <div class="justify-self-end flex items-center gap-6">
