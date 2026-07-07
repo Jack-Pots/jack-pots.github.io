@@ -23,9 +23,8 @@ yarn-error.log*
 .vscode/
 .idea/
 
-# Lockfiles (optional to ignore if you commit them)
+# Lockfiles
 package-lock.json
-pnpm-lock.yaml
 
 # Temporary
 *.log
