@@ -63,7 +63,6 @@ interface Post {
 
 const posts: Post[] = []; // TODO's: Make changes to this after establising API for Post
 
-
 // const posts = [
 //   {
 //     id: 1,
@@ -608,20 +607,26 @@ function AboutPage() {
                 </p>
                 <div className="space-y-2">
                   <a
-                    href="#"
+                    href="https://github.com/Jack-Pots/"
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Github size={13} /> Jack-Pots
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/jack_potsz/"
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Instagram size={13} /> @jack_potsz
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/jack-pots/"
                     className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Linkedin size={13} /> jack-pots
                   </a>
