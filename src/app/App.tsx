@@ -277,6 +277,8 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
             <a
               href="https://github.com/Jack-Pots/"
               className="flex items-center gap-2 text-sm hover:text-foreground transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Github size={14} />
               <span className="hidden sm:inline">GitHub</span>
@@ -284,6 +286,8 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
             <a
               href="https://www.linkedin.com/in/jack-pots/"
               className="flex items-center gap-2 text-sm hover:text-foreground transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Linkedin size={14} />
               <span className="hidden sm:inline">LinkedIn</span>
@@ -645,7 +649,7 @@ function AboutPage() {
 export default function App() {
   const [theme, setTheme] = useState<Theme>("dark");
   const [page, setPage] = useState<Page>("home");
-``
+  ``;
   useEffect(() => {
     const vars = themeVars[theme];
     const root = document.documentElement;
