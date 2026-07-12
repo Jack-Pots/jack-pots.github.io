@@ -649,7 +649,7 @@ function AboutPage() {
 export default function App() {
   const [theme, setTheme] = useState<Theme>("dark");
   const [page, setPage] = useState<Page>("home");
-  ``;
+  
   useEffect(() => {
     const vars = themeVars[theme];
     const root = document.documentElement;
