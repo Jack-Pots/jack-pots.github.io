@@ -275,14 +275,14 @@ function HomePage({ setPage }: { setPage: (p: Page) => void }) {
 
           <div className="flex lg:flex-col gap-4 text-muted-foreground lg:pb-2">
             <a
-              href="#"
+              href="https://github.com/Jack-Pots/"
               className="flex items-center gap-2 text-sm hover:text-foreground transition-colors"
             >
               <Github size={14} />
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/jack-pots/"
               className="flex items-center gap-2 text-sm hover:text-foreground transition-colors"
             >
               <Linkedin size={14} />
@@ -645,7 +645,7 @@ function AboutPage() {
 export default function App() {
   const [theme, setTheme] = useState<Theme>("dark");
   const [page, setPage] = useState<Page>("home");
-
+``
   useEffect(() => {
     const vars = themeVars[theme];
     const root = document.documentElement;
